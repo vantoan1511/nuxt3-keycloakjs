@@ -1,0 +1,20 @@
+{
+    "name": "nuxt-app",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "dependencies": {
+        "keycloak-js": "^25.0.2",
+        "nuxt": "^3.12.4",
+        "nuxt-app": "file:",
+        "scss": "^0.2.4",
+        "typescript": "^5.5.4",
+        "vue": "latest"
+    }
+}
